@@ -9,7 +9,41 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+  <style>
+    .hero {
+        background-image: url('https://live.staticflickr.com/7085/7161346832_f7f490bdd5_b.jpg'); /* imagem de fundo */
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p{
+      font-size: 2rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+  </style>
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
     <div class="container">
       <a class="navbar-brand text-primary fw-bold" href="#">Ripe Origins</a>
@@ -18,47 +52,50 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#intro">Empresa</a></li>
-          <li class="nav-item"><a class="nav-link" href="#quem-somos">Quem Somos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato">Fale Conosco</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="avaliacao.html">Avaliações</a></li>
           <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Principais Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <header class="bg-primary text-white text-center py-5" style="margin-top: 56px;">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Sabores Autênticos com um Toque Moderno</h1>
-      <p class="lead mt-3">Descubra o irresistível Quiche Loco e outras delícias mexicanas</p>
-      <a href="cardapio.html" class="btn btn-light btn-lg mt-3">Ver Cardápio</a>
-    </div>
-  </header>
+  <div class="hero">
+    <h1>Onde cada mordida é uma Fiesta!</h1>
+    <a href="cardapio.html" class="btn btn-primary btn-lg">Ver Cardápio</a>
+</div>
 
   <!-- Seção: Introdução -->
-  <section id="intro" class="py-5">
+  <section id="sobre" class="py-5">
     <div class="container">
       <h2 class="text-center mb-4">Sobre a Ripe Origins</h2>
-      <p class="text-center">Somos uma franquia de restaurantes mexicanos que combina tradição com inovação. Servimos pratos vibrantes com um toque contemporâneo em um ambiente acolhedor e moderno.</p>
+      <p class="text-center">A Ripe Origins nasceu da paixão de ssua fundadora pela culinária e pela gastronomia. Após anos trabalhando em restaurantes renomados, decidiu que era hora de criar sua própria marca e compartilhar sua visão única com o mundo.
+
+        Desde o início, a Ripe Origins se concentrou em oferecer pratos especiais que combinam sabores clássicos com um toque moderno. Com o tempo, a empresa cresceu e expandiu sua oferta para incluir uma variedade de pratos deliciosos.
+        
+        Hoje, a Ripe Origins é uma marca reconhecida em todo o país, conhecida por seus pratos deliciosos e pelo compromisso com a qualidade e o sabor. Estamos animados para continuar crescendo e compartilhando nossa visão com ainda mais pessoas.</p><br>
+      <h2 class="text-center mb-4">Nossos Valores e Missão</h2>
+      <div class="text-center mb-4">
+        <div class="text-center mb-4">
+          <p>Na Ripe Origins, acreditamos que é possível conciliar a busca pela qualidade com a preservação do meio ambiente. Por isso, todos os nossos produtos são desenvolvidos levando em consideração a sustentabilidade e a responsabilidade social.
+
+            Além disso, estamos comprometidos em oferecer um atendimento de alta qualidade e um relacionamento estreito com nossos clientes. Nosso objetivo é criar uma comunidade de pessoas que compartilham nossos valores e visão de um mundo melhor.
+            
+            Valorizamos a honestidade, a transparência e a ética em todas as nossas relações, sejam elas com nossos clientes, fornecedores ou colaboradores. Acreditamos que, agindo com integridade, podemos construir relacionamentos duradouros e benéficos para todas as partes envolvidas.
+            
+            Por fim, buscamos sempre estar atualizados e em constante evolução. Estamos sempre em busca de novas tecnologias e soluções inovadoras para oferecer a melhor experiência possível aos nossos clientes.</p>
+          <p>Nossa missão é criar experiências gastronômicas únicas, combinando sabores clássicos mexicanos com toques modernos. Valorizamos a sustentabilidade, a qualidade no atendimento e o relacionamento próximo com nossos clientes.
+
+            Baseamos nossas relações em honestidade, transparência e ética, buscando constantemente inovações para melhorar a experiência de nossos clientes.
+            
+            Nossa visão é nos tornarmos uma referência internacional em gastronomia mexicana, equilibrando tradição e modernidade, enquanto construímos uma comunidade que compartilha nossos valores e visão de um mundo melhor.</p>
+        </div>
     </div>
   </section>
-  <!-- Seção: Quem Somos -->
-<section id="quem-somos" class="bg-light py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Quem Somos</h2>
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <p>Somos apaixonados por trazer a energia da culinária mexicana para o público brasileiro. Desde o início, nossa missão tem sido oferecer experiências únicas com pratos autênticos e uma pitada de criatividade moderna.</p>
-          <p>Nosso ambiente combina cores vivas e um atendimento descontraído, sempre respeitando a tradição e qualidade dos ingredientes.</p>
-        </div>
-        <div class="col-md-6 text-center">
-          <img src="img/equipe.jpg" alt="Equipe Ripe Origins" class="img-fluid rounded-4 shadow-sm">
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   
   <!-- Seção: Vitrine de Produtos -->
   <section id="produtos" class="py-5">
@@ -66,9 +103,9 @@
       <h2 class="text-center mb-5">Nossos Destaques</h2>
       <div class="row g-4">
         <!-- Quiche Loco - Destaque -->
-        <div class="col-md-6">
-          <div class="card border-primary shadow-sm h-100">
-            <img src="img/quiche-loco.jpg" class="card-img-top" alt="Quiche Loco">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://th.bing.com/th/id/OIP.yC7Gg1FfQW_ut6vsFWIcrwHaFS?cb=iwp2&rs=1&pid=ImgDetMain" class="card-img-top" alt="Quiche Loco">
             <div class="card-body">
               <h5 class="card-title text-primary">★ Quiche Loco (Nosso Especial)</h5>
               <p class="card-text">Uma fusão criativa entre a quiche francesa e os sabores picantes do México. Crocante por fora, explosiva por dentro!</p>
@@ -76,9 +113,9 @@
           </div>
         </div>
         <!-- Produto 2 -->
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="card shadow-sm h-100">
-            <img src="img/taco.jpg" class="card-img-top" alt="Taco Tradicional">
+            <img src="https://midias.agazeta.com.br/2022/08/19/tacos-mexicanos-819864.jpg" class="card-img-top" alt="Taco Tradicional">
             <div class="card-body">
               <h5 class="card-title">Taco Tradicional</h5>
               <p class="card-text">O clássico mexicano com carne marinada e molho especial da casa.</p>
@@ -86,9 +123,9 @@
           </div>
         </div>
         <!-- Produto 3 -->
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="card shadow-sm h-100">
-            <img src="img/burrito.jpg" class="card-img-top" alt="Burrito Veggie">
+            <img src="https://th.bing.com/th/id/R.0b1757720ee24e83ad93e59494373ec3?rik=hGsAr3Z9X0AMsQ&pid=ImgRaw&r=01" class="card-img-top" alt="Burrito Veggie">
             <div class="card-body">
               <h5 class="card-title">Burrito Veggie</h5>
               <p class="card-text">Recheado com legumes grelhados, arroz temperado e guacamole.</p>
@@ -98,7 +135,7 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Seção: Fale Conosco -->
   <section id="contato" class="bg-light py-5">
     <div class="container">
@@ -107,7 +144,7 @@
         <div class="col-md-8">
           <p class="text-center">Tem dúvidas, sugestões ou quer apenas dizer olá? Estamos aqui para ouvir você!</p>
           <div class="text-center mt-3">
-            <a href="contato.html" class="btn btn-primary">Ir para Contato</a>
+            <a href="#contato" class="btn btn-primary">Ir para Contato</a>
           </div>
         </div>
       </div>
